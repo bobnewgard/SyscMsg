@@ -1,0 +1,8 @@
+doxygen/
+*.swp
+*.o
+*.a
+*.so
+dep.mk
+test
+Readme.md
