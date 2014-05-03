@@ -3,7 +3,8 @@
 This project provides a library for the SyscMsg namespace, which contains the Msg class.
 The Msg class provides helper methods for log message generation.
 
-The Msg constructor that takes char * uses sc\_core::sc\_report\_handler::set\_handler()
+There are three constructors for the Msg class.  The Msg constructor
+that takes a single character pointer uses sc\_core::sc\_report\_handler::set\_handler()
 to extend sc\_core::sc\_report\_handler\_proc with simulation time stamps.
 
 ### Use Cases
@@ -27,7 +28,7 @@ implementation of the SystemC classes to provide
 a simulation kernel.
 
 The path to the SystemC installation is set in the makefiles using the
-variable IPATH and LPATH.
+variables IPATH and LPATH.
 
 ## Validated Environments
 
